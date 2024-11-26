@@ -4,6 +4,7 @@ import About from './components/About'
 import Bento from './components/Bento'
 import { TextParallaxContentExample } from './components/TextParallaxContent'
 import { useEffect } from 'react';
+import Team from './components/Team';
 
 function App() {
   useEffect(() => {
@@ -33,6 +34,7 @@ function App() {
   <About/>
   <div className='h-[450px]'></div>
   <Bento/>
+  <Team/>
 
     </div>
   )

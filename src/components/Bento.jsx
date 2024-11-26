@@ -4,7 +4,8 @@ import './Bento.css'
 function Bento() {
   return (
     <div className='bento'>
-<div className="grid grid-cols-1 sm:grid-cols-8 grid-rows-3 gap-4 h-screen mx-4 my-4">
+        <p className='flex align-items-center justify-center'>OUR DESTINATIONS</p>
+<div className="grid grid-cols-4 sm:grid-cols-8 grid-rows-3 gap-4 h-screen mx-4 my-4">
   <div className=" flex  h-full">Rajasthan</div>
   <div className=" h-full"><img src="./rj2.jpg" alt="" /></div>
   <div className=" flex  h-full"><img src="./rj1.jpg" className='object-cover' alt="" /></div>
@@ -18,7 +19,7 @@ function Bento() {
   <div className="overflow-hidden  h-full">Himachal</div>
   <div className="overflow-hidden h-full"><img src="./him2.avif" alt="" /></div>
   <div className="overflow-hidden  h-full">Kashmir</div>
-  <div className="overflow-hidden  h-full"><img src="./kash.jpeg" alt="" /></div>
+  <div className="overflow-hidden  h-full"><img src="kash.jpeg" alt="" /></div>
   <div className="overflow-hidden  h-full"><img src="kash2.jpg" alt="" /></div>
   <div className="overflow-hidden  h-full"><img src="kash3.jpeg" alt="" /></div>
   <div className="overflow-hidden  h-full"><img src="kash4.webp" alt="" /></div>
