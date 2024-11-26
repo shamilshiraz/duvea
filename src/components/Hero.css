@@ -1,0 +1,36 @@
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+.heronav{
+    font-size: 1em;
+}
+.heroimage{
+    width: 80vw;
+    height: 70vh;
+    object-fit: cover;
+    border-radius: 16px;
+    /* border: 2px solid gold; */
+    margin-block: 1em;
+}
+.herobottom{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    /* padding-inline: 50px; */
+}
+.rot{
+    border: 1px solid gold;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin: 50px;
+}
+.herologo{
+    height: 15vh;
+}
+
+
+

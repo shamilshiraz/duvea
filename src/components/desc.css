@@ -1,0 +1,13 @@
+.desc{
+    height:'170vh';
+    display:'flex';
+    background-color: aliceblue;
+}
+.descimg{
+        height:'100vh';
+        width:'100%';
+        position:'sticky';
+        top:'0';   
+}
+
+

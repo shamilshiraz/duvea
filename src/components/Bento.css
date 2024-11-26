@@ -1,0 +1,30 @@
+.bento{
+    height: 100vh;
+    width: 100vw;
+}
+.row{
+    display: flex;
+}
+.col{
+    border: 1px solid white;
+    margin: 10px;
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+}
+.col img{
+    width: auto;
+    max-height: 150px;
+    padding-inline: 10px;
+}
+.col1,.col7{
+    width: 60%;
+    height: 30vh;
+}
+.col2,.col6{
+    width: 40%;
+}
+.col3,.col4,.col5{
+    width: 33%;
+    height: 30vh;
+}
