@@ -4,33 +4,34 @@ import './Bento.css'
 function Bento() {
   return (
     <div className='bento'>
-<div className="grid grid-cols-1 sm:grid-cols-8 grid-rows-3 gap-4 h-screen">
-  <div className="border p-4 flex  h-full">Rajasthan</div>
-  <div className="bg-white border p-4 flex items-center justify-center h-full">2</div>
-  <div className="bg-white border p-4 flex items-center justify-center h-full">3</div>
-  <div className="bg-white border p-4 flex items-center justify-center h-full">4</div>
-  <div className="bg-white border p-4 flex items-center justify-center h-full">5</div>
-  <div className="bg-white border p-4 flex items-center justify-center h-full">6</div>
-  <div className="bg-white border p-4 flex items-center justify-center h-full">7</div>
-  <div className="bg-white border p-4 flex items-center justify-center h-full">8</div>
+<div className="grid grid-cols-1 sm:grid-cols-8 grid-rows-3 gap-4 h-screen mx-4 my-4">
+  <div className=" flex  h-full">Rajasthan</div>
+  <div className=" h-full"><img src="./rj2.jpg" alt="" /></div>
+  <div className=" flex  h-full"><img src="./rj1.jpg" className='object-cover' alt="" /></div>
+  <div className=" h-full overflow-hidden"><img src="./rj3.jpeg" className='object-cover' alt="" /></div>
+  <div className="overflow-hidden flex items-center justify-center h-full"><img src="./rj4.jpg" className='object-cover' alt="" /></div>
+  <div className="overflow-hidden  h-full"><img src="./rj5.jpg" className='object-cover' alt="" /></div>
+  <div className="overflow-hidden  h-full">Mumbai</div>
+  <div className="overflow-hidden h-full"><img src="./mum.jpeg" alt="" /></div>
 
-  <div className="bg-white border p-4 flex items-center justify-center h-full">9</div>
-  <div className="bg-white border p-4 flex items-center justify-center h-full">10</div>
-  <div className="bg-white border p-4 flex items-center justify-center h-full">11</div>
-  <div className="bg-white border p-4 flex items-center justify-center h-full">12</div>
-  <div className="bg-white border p-4 flex items-center justify-center h-full">13</div>
-  <div className="bg-white border p-4 flex items-center justify-center h-full">14</div>
-  <div className="bg-white border p-4 flex items-center justify-center h-full">15</div>
-  <div className="bg-white border p-4 flex items-center justify-center h-full">16</div>
+  <div className="overflow-hidden "><img src="./him.webp" alt="" /></div>
+  <div className="overflow-hidden  h-full">Himachal</div>
+  <div className="overflow-hidden h-full"><img src="./him2.avif" alt="" /></div>
+  <div className="overflow-hidden  h-full">Kashmir</div>
+  <div className="overflow-hidden  h-full"><img src="./kash.jpeg" alt="" /></div>
+  <div className="overflow-hidden  h-full"><img src="kash2.jpg" alt="" /></div>
+  <div className="overflow-hidden  h-full"><img src="kash3.jpeg" alt="" /></div>
+  <div className="overflow-hidden  h-full"><img src="kash4.webp" alt="" /></div>
 
-  <div className="bg-white border p-4 flex items-center justify-center h-full">17</div>
-  <div className="bg-white border p-4 flex items-center justify-center h-full">18</div>
-  <div className="bg-white border p-4 flex items-center justify-center h-full">19</div>
-  <div className="bg-white border p-4 flex items-center justify-center h-full">20</div>
-  <div className="bg-white border p-4 flex items-center justify-center h-full">21</div>
-  <div className="bg-white border p-4 flex items-center justify-center h-full">22</div>
-  <div className="bg-white border p-4 flex items-center justify-center h-full">23</div>
-  <div className="bg-white border p-4 flex items-center justify-center h-full">24</div>
+  <div className="overflow-hidden h-full">Hampi</div>
+  <div className="overflow-hidden h-full"><img src="./hampi.jpg" alt="" /></div>
+  <div className="overflow-hidden h-full">Delhi</div>
+  <div className="overflow-hidden h-full"><img src="./dilli2.jpg" alt="" /></div>
+  <div className="overflow-hidden h-full"><img src="./dilli1.jpeg" alt="" /></div>
+  <div className="overflow-hidden h-full">Goa</div>
+  <div className="overflow-hidden h-full"><img src="goa.jpg" alt="" /></div>
+  <div className="overflow-hidden h-full"><img src="goa2.jpg" alt="" /></div>
+  
 </div>
 
 
