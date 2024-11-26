@@ -5,6 +5,7 @@ import Bento from './components/Bento'
 import { TextParallaxContentExample } from './components/TextParallaxContent'
 import { useEffect } from 'react';
 import Team from './components/Team';
+import Footer from './components/Footer';
 
 function App() {
   useEffect(() => {
@@ -30,12 +31,10 @@ function App() {
   return (
     <div > 
   <TextParallaxContentExample/>
-  <div className='h-[450px]'></div>
   <About/>
-  <div className='h-[450px]'></div>
   <Bento/>
   <Team/>
-
+  <Footer/>
     </div>
   )
 }
