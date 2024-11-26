@@ -12,11 +12,10 @@ function Footer() {
           {/* Logo */}
           <img src="/logo.png" className="h-[150px] place-self-end " alt="Logo" />
           {/* Contact Text */}
-          <p className="text-8xl mb-4 ">CONTACT</p>
-          <p className="mb-4">duvea@gmail.com | +91 895555478</p>
+          <p className="text-[5rem] font-thin mb-4">CONTACT</p>            <p className="mb-4">duvea@gmail.com | +91 895555478</p>
 
           {/* Social Icons */}
-          <div className="text-3xl flex space-x-4 justify-end">
+          <div className="text-3xl sm:text-2xl flex space-x-4 justify-end">
             <CiInstagram />
             <FaWhatsapp />
           </div>
