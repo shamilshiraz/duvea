@@ -5,8 +5,9 @@
 *{
   margin: 0;
   padding: 0;
-  color: rgb(240, 224, 131);
+  color: rgb(220, 220, 220);
 }
 ::-webkit-scrollbar{
   display: none;
 }
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
