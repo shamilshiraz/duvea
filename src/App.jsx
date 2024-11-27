@@ -6,6 +6,7 @@ import { TextParallaxContentExample } from './components/TextParallaxContent'
 import { useEffect } from 'react';
 import Team from './components/Team';
 import Footer from './components/Footer';
+import Why from './components/Why';
 
 function App() {
   useEffect(() => {
@@ -32,8 +33,9 @@ function App() {
     <div > 
   <TextParallaxContentExample/>
   <About/>
-  <Bento/>
   <Team/>
+  <Bento/>
+  <Why/>
   <Footer/>
     </div>
   )
