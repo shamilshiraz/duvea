@@ -16,8 +16,8 @@ function Footer() {
 
           {/* Social Icons */}
           <div className="text-3xl sm:text-2xl flex space-x-4 justify-end">
-            <CiInstagram />
-            <FaWhatsapp />
+            <a href="https://api.whatsapp.com/send/?phone=917902990856&text&type=phone_number&app_absent=0">            <FaWhatsapp /></a>
+            <a href="https://www.instagram.com/duveatravelco?igsh=eGl3YzdydGIzNXBj"><CiInstagram /></a>
           </div>
         </div>
       </div>

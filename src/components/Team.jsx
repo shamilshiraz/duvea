@@ -6,9 +6,10 @@ function Team() {
       <div className="flex border flex-col justify-around items-center bg-black h-[80%] w-[90vw] lg:w-[30vw]">
         {/* Content goes here */}
         <p>OUR FOUNDER</p>
-        <div className="h-[200px] w-[200px] overflow-hidden rounded-full">        <img src="./rj5.jpg" alt="" />        </div>
+        <div className="h-[200px] w-[200px] overflow-hidden rounded-full border-2">        <img src="./aslam.webp" alt="" />        </div>
         <p>ASLAM MUHAMMED</p>
-        <p className='px-6'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto accusamus assumenda aliquam voluptatum inventore ipsa sapiente voluptate est expedita officia alias voluptatem, error debitis incidunt blanditiis enim. Autem, quam repellendus?</p>
+        <p className='px-6 italic'>"At Duvea, we believe that travel is more than just visiting new places; it’s about discovering yourself, forming lasting connections, and making memories that will stay with you forever. Our goal is to offer you unique, personalized, and affordable travel experiences, without compromising on quality."
+        </p>
       </div>
     </div>
   );

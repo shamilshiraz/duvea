@@ -34,9 +34,6 @@ function Bento() {
   <div className="overflow-hidden h-full "><img src="goa2.jpg" alt="" /></div>
   
 </div>
-
-<p className='text-xs'>Our destinations are not limited to these, We deliver customized packages best suited according to your needs, for further info <a href="">click here</a></p>
-
     </div>
   )
 }
