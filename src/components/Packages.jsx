@@ -14,9 +14,9 @@ function Packages() {
             <p className='border-b-2 mx-4 mix-blend-screen'>BIKANER</p>
             <p className='border-b-2 mx-4 mix-blend-screen'>DELHI</p>
         </div>
-        <button className='rounded-full px-3 border bg-white text-black hover:bg-black my-3 hover:text-white duration-300 '>Iterinerary</button>
+        <button className='rounded-full px-3  bg-white text-black hover:bg-black my-3 hover:text-white duration-300 '>Iterinerary</button>
             </div>
-      <div className="bg-[url('./him.webp')] bg-cover text-white my-3 mix-blend-difference flex flex-col justify-between items-center   rounded-3xl h-full w-3/4 mix-blend-screen ">
+      <div className="bg-[url('../him.webp')] bg-cover text-white my-3 mix-blend-difference flex flex-col justify-between items-center   rounded-3xl h-full w-3/4 mix-blend-screen ">
         <p>Himachal-Delhi</p>
         <div className="flex-col flex w-full">
             <p className='border-b-2 mx-4 mix-blend-screen'>KULLU</p>
@@ -25,9 +25,9 @@ function Packages() {
             <p className='border-b-2 mx-4 mix-blend-screen'>DELHI</p>
             <p className='border-b-2 mx-4 mix-blend-screen'>AGRA</p>
         </div>
-        <button className='rounded-full px-3 border bg-white text-black hover:bg-black my-3 hover:text-white duration-300 '>Iterinerary</button>
+        <button className='rounded-full px-3  bg-white text-black hover:bg-black my-3 hover:text-white duration-300 '>Iterinerary</button>
         </div>
-      <div className="bg-[url('./kash2.jpg')] bg-cover text-white my-3 mix-blend-difference flex flex-col justify-between items-center   rounded-3xl h-full w-3/4 mix-blend-screen ">
+      <div className="bg-[url('../kash2.jpg')] bg-cover text-white my-3 mix-blend-difference flex flex-col justify-between items-center   rounded-3xl h-full w-3/4 mix-blend-screen ">
         <p>Kashmir</p>
         <div className="flex-col flex w-full">
             <p className='border-b-2 mx-4 mix-blend-screen '>PAHALGAM</p>
@@ -35,9 +35,9 @@ function Packages() {
             <p className='border-b-2 mx-4 mix-blend-screen'>SONMARG</p>
             <p className='border-b-2 mx-4 mix-blend-screen'>DAL LAKE</p>
         </div>
-        <button className='rounded-full px-3 border bg-white text-black hover:bg-black my-3 hover:text-white duration-300 '>Iterinerary</button>
+        <button className='rounded-full px-3  bg-white text-black hover:bg-black my-3 hover:text-white duration-300 '>Iterinerary</button>
         </div>
-      <div className="bg-[url('./mum.jpeg')] bg-cover text-white my-3 mix-blend-difference flex flex-col justify-between items-center   rounded-3xl h-full w-3/4 mix-blend-screen">
+      <div className="bg-[url('../mum.jpeg')] bg-cover text-white my-3 mix-blend-difference flex flex-col justify-between items-center   rounded-3xl h-full w-3/4 mix-blend-screen">
         <p>Maharashtra</p>
         <div className="flex-col flex w-full">
             <p className='border-b-2 mx-4 mix-blend-screen'>MUMBAI</p>
@@ -46,10 +46,10 @@ function Packages() {
             <p className='border-b-2 mx-4 mix-blend-screen'>MATHERAN</p>
             <p className='border-b-2 mx-4 mix-blend-screen'>AURANGADABAD</p>
         </div>
-        <button className='rounded-full px-3 border bg-white text-black hover:bg-black my-3 hover:text-white duration-300 '>Iterinerary</button>
+        <button className='rounded-full px-3  bg-white text-black hover:bg-black my-3 hover:text-white duration-300 '>Iterinerary</button>
         </div>
 
-      <div className="bg-[url('./alep.webp')] bg-cover text-white my-3 mix-blend-difference flex flex-col justify-between items-center   rounded-3xl h-full w-3/4 mix-blend-screen ">
+      <div className="bg-[url('../alep.webp')] bg-cover text-white my-3 mix-blend-difference flex flex-col justify-between items-center   rounded-3xl h-full w-3/4 mix-blend-screen ">
         <p>Kerala-Tamilnadu</p>
         <div className="flex-col flex w-full">
             <p className='border-b-2 mx-4 mix-blend-screen'>WAYANAD</p>
@@ -59,9 +59,9 @@ function Packages() {
             <p className='border-b-2 mx-4 mix-blend-screen'>KODAIKANAL</p>
             <p className='border-b-2 mx-4 mix-blend-screen'>CHENNAI</p>
         </div>
-        <button className='rounded-full px-3 border bg-white text-black hover:bg-black my-3 hover:text-white duration-300 '>Iterinerary</button>
+        <button className='rounded-full px-3  bg-white text-black hover:bg-black my-3 hover:text-white duration-300 '>Iterinerary</button>
         </div>
-      <div className="bg-[url('./mys.jpeg')] bg-cover text-white my-3 mix-blend-difference flex flex-col justify-between items-center   rounded-3xl h-full w-3/4 mix-blend-screen ">
+      <div className="bg-[url('../mys.jpeg')] bg-cover text-white my-3 mix-blend-difference flex flex-col justify-between items-center   rounded-3xl h-full w-3/4 mix-blend-screen ">
         <p>Karnataka</p>
         <div className="flex-col flex w-full">
             <p className='border-b-2 mx-4 mix-blend-screen'>HAMPI</p>
