@@ -5,7 +5,7 @@ function Packages() {
     <>
     <p className='flex justify-center'>OUR PACKAGES</p>
     <div className="grid  sm:h-screen w-screen grid-rows-2 grid-cols-1 sm:grid-cols-3 gap-6 p-6 place-items-center">
-      <div className="bg-[url('./rj1.jpg')] bg-cover text-white my-3 mix-blend-difference flex flex-col justify-between items-center   rounded-3xl h-full w-3/4 mix-blend-screen ">
+      <div className="bg-[url('../rj1.jpg')] bg-cover text-white my-3 mix-blend-difference flex flex-col justify-between items-center   rounded-3xl h-full w-3/4 mix-blend-screen ">
         <p>Rajasthan-Delhi</p>
         <div className="flex-col flex w-full">
             <p className='border-b-2 mx-4 mix-blend-screen'>JODHPUR</p>
