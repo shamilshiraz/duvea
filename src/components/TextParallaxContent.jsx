@@ -89,7 +89,7 @@ const OverlayCopy = ({ subheading, heading }) => {
       className="absolute left-0 top-0 flex h-screen w-full flex-col items-center justify-center text-white"
     >
         <img src="logo.png" alt="" />
-        <div style={{background:'none'}}> <i> Explore duniya with duvea</i></div>
+        <div style={{background:'none'}}> <i> Explore दुनिया with duvea</i></div>
     </motion.div>
   );
 };
