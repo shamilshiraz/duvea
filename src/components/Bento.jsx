@@ -18,7 +18,7 @@ function Bento() {
   <div className="overflow-hidden h-full  "><img src="./him.webp" alt="" /></div>
   <div className="overflow-hidden  h-full ">Himachal</div>
   <div className="overflow-hidden h-full "><img src="./him2.avif" alt="" /></div>
-  <div className="overflow-hidden  h-full ">Kashmir</div>
+  <div className="overflow-hidden  h-full ">Jammu & Kashmir</div>
   <div className="overflow-hidden  h-full "><img src="kash.jpeg" alt="" /></div>
   <div className="overflow-hidden  h-full "><img src="kash2.jpg" alt="" /></div>
   <div className="overflow-hidden  h-full "><img src="kash3.jpeg" alt="" /></div>
