@@ -5,8 +5,9 @@ function Packages() {
     <>
     <p className='flex justify-center'>OUR PACKAGES</p>
     <div className="grid  sm:h-screen w-screen grid-rows-2 grid-cols-1 sm:grid-cols-3 gap-6 p-6 place-items-center">
-      <div className="bg-[url('../rj1.jpg')] bg-cover text-white my-3 mix-blend-difference flex flex-col justify-between items-center   rounded-3xl h-full w-3/4 mix-blend-screen ">
-        <p>Rajasthan-Delhi</p>
+    <div className="relative my-3 flex flex-col justify-between items-center rounded-3xl h-full w-3/4">
+  <div className="absolute inset-0 bg-[url('../rj1.jpg')] bg-cover bg-center opacity-50 rounded-3xl"></div>
+  <div className="relative z-10 text-white flex flex-col justify-between items-center h-screen w-full">        <p>Rajasthan-Delhi</p>
         <div className="flex-col flex w-full">
             <p className='border-b-2 mx-4 mix-blend-screen'>JODHPUR</p>
             <p className='border-b-2 mx-4 mix-blend-screen'>JAISALMER</p>
@@ -16,8 +17,11 @@ function Packages() {
         </div>
         <button className='rounded-full px-3  bg-white text-black hover:bg-black my-3 hover:text-white duration-300 '>Iterinerary</button>
             </div>
-      <div className="bg-[url('../him.webp')] bg-cover text-white my-3 mix-blend-difference flex flex-col justify-between items-center   rounded-3xl h-full w-3/4 mix-blend-screen ">
-        <p>Himachal-Delhi</p>
+            </div>
+            <div className="relative my-3 flex flex-col justify-between items-center rounded-3xl h-full w-3/4">
+  <div className="absolute inset-0 bg-[url('../him.webp')] bg-cover bg-center opacity-50 rounded-3xl"></div>
+  <div className="relative z-10 text-white flex flex-col justify-between items-center h-screen w-full">
+            <p>Himachal-Delhi</p>
         <div className="flex-col flex w-full">
             <p className='border-b-2 mx-4 mix-blend-screen'>KULLU</p>
             <p className='border-b-2 mx-4 mix-blend-screen'>MANALI</p>
@@ -27,8 +31,10 @@ function Packages() {
         </div>
         <button className='rounded-full px-3  bg-white text-black hover:bg-black my-3 hover:text-white duration-300 '>Iterinerary</button>
         </div>
-      <div className="bg-[url('../kash2.jpg')] bg-cover text-white my-3 mix-blend-difference flex flex-col justify-between items-center   rounded-3xl h-full w-3/4 mix-blend-screen ">
-        <p>Kashmir</p>
+        </div>
+        <div className="relative my-3 flex flex-col justify-between items-center rounded-3xl h-full w-3/4">
+  <div className="absolute inset-0 bg-[url('../kash2.jpg')] bg-cover bg-center opacity-50 rounded-3xl"></div>
+  <div className="relative z-10 text-white flex flex-col justify-between items-center h-screen w-full">        <p>Kashmir</p>
         <div className="flex-col flex w-full">
             <p className='border-b-2 mx-4 mix-blend-screen '>PAHALGAM</p>
             <p className='border-b-2 mx-4 mix-blend-screen'>GULMARG</p>
@@ -37,8 +43,10 @@ function Packages() {
         </div>
         <button className='rounded-full px-3  bg-white text-black hover:bg-black my-3 hover:text-white duration-300 '>Iterinerary</button>
         </div>
-      <div className="bg-[url('../mum.jpeg')] bg-cover text-white my-3 mix-blend-difference flex flex-col justify-between items-center   rounded-3xl h-full w-3/4 mix-blend-screen">
-        <p>Maharashtra</p>
+        </div>
+        <div className="relative my-3 flex flex-col justify-between items-center rounded-3xl h-full w-3/4">
+  <div className="absolute inset-0 bg-[url('../mum.jpeg')] bg-cover bg-center opacity-50 rounded-3xl"></div>
+  <div className="relative z-10 text-white flex flex-col justify-between items-center h-screen w-full">        <p>Maharashtra</p>
         <div className="flex-col flex w-full">
             <p className='border-b-2 mx-4 mix-blend-screen'>MUMBAI</p>
             <p className='border-b-2 mx-4 mix-blend-screen'>LONAVALA</p>
@@ -48,9 +56,12 @@ function Packages() {
         </div>
         <button className='rounded-full px-3  bg-white text-black hover:bg-black my-3 hover:text-white duration-300 '>Iterinerary</button>
         </div>
+        </div>
 
-      <div className="bg-[url('../alep.webp')] bg-cover text-white my-3 mix-blend-difference flex flex-col justify-between items-center   rounded-3xl h-full w-3/4 mix-blend-screen ">
-        <p>Kerala-Tamilnadu</p>
+        <div className="relative my-3 flex flex-col justify-between items-center rounded-3xl h-full w-3/4">
+  <div className="absolute inset-0 bg-[url('../alep.jpeg')] bg-cover bg-center opacity-50 rounded-3xl"></div>
+  <div className="relative z-10 text-white flex flex-col justify-between items-center h-screen w-full">
+            <p>Kerala-Tamilnadu</p>
         <div className="flex-col flex w-full">
             <p className='border-b-2 mx-4 mix-blend-screen'>WAYANAD</p>
             <p className='border-b-2 mx-4 mix-blend-screen'>MUNNAR</p>
@@ -61,18 +72,23 @@ function Packages() {
         </div>
         <button className='rounded-full px-3  bg-white text-black hover:bg-black my-3 hover:text-white duration-300 '>Iterinerary</button>
         </div>
-      <div className="bg-[url('../mys.jpeg')] bg-cover text-white my-3 mix-blend-difference flex flex-col justify-between items-center   rounded-3xl h-full w-3/4 mix-blend-screen ">
-        <p>Karnataka</p>
-        <div className="flex-col flex w-full">
-            <p className='border-b-2 mx-4 mix-blend-screen'>HAMPI</p>
-            <p className='border-b-2 mx-4 mix-blend-screen'>GOKARNA</p>
-            <p className='border-b-2 mx-4 mix-blend-screen'>DANDELI</p>
-            <p className='border-b-2 mx-4 mix-blend-screen'>MYSORE</p>
-            <p className='border-b-2 mx-4 mix-blend-screen'>BANGALORE</p>
-            <p className='border-b-2 mx-4 mix-blend-screen'>MANGALORE</p>
         </div>
-        <button className='rounded-full px-3  bg-white text-black hover:bg-black my-3 hover:text-white duration-300 '>Iterinerary</button>
-        </div>
+        <div className="relative my-3 flex flex-col justify-between items-center rounded-3xl h-full w-3/4">
+  <div className="absolute inset-0 bg-[url('../mys.jpeg')] bg-cover bg-center opacity-50 rounded-3xl"></div>
+  <div className="relative z-10 text-white flex flex-col justify-between items-center h-screen w-full">
+    <p>Karnataka</p>
+    <div className="flex-col flex w-full">
+      <p className="border-b-2 mx-4 mix-blend-screen">HAMPI</p>
+      <p className="border-b-2 mx-4 mix-blend-screen">GOKARNA</p>
+      <p className="border-b-2 mx-4 mix-blend-screen">DANDELI</p>
+      <p className="border-b-2 mx-4 mix-blend-screen">MYSORE</p>
+      <p className="border-b-2 mx-4 mix-blend-screen">BANGALORE</p>
+      <p className="border-b-2 mx-4 mix-blend-screen">MANGALORE</p>
+    </div>
+    <button className="rounded-full px-3 bg-white text-black hover:bg-black my-3 hover:text-white duration-300">Iterinerary</button>
+  </div>
+</div>
+
 
     </div>
     <div className="flex flex-col items-center justify-center text-center">
