@@ -5,7 +5,7 @@ function Packages() {
     <>
     <p className='flex justify-center'>OUR PACKAGES</p>
     <div className="grid  sm:h-screen w-screen grid-rows-2 grid-cols-1 sm:grid-cols-3 gap-6 p-6 place-items-center">
-    <div className="relative my-3 flex flex-col justify-between items-center rounded-3xl h-full w-3/4">
+    <div className="relative my-3 flex flex-col justify-between items-center rounded-3xl h-1/2 sm:h-full w-3/4">
   <div className="absolute inset-0 bg-[url('../rj1.jpg')] bg-cover bg-center opacity-50 rounded-3xl"></div>
   <div className="relative z-10 text-white flex flex-col justify-between items-center h-screen w-full">        <p>Rajasthan-Delhi</p>
         <div className="flex-col flex w-full">
@@ -18,7 +18,7 @@ function Packages() {
         <button className='rounded-full px-3  bg-white text-black hover:bg-black my-3 hover:text-white duration-300 '>Iterinerary</button>
             </div>
             </div>
-            <div className="relative my-3 flex flex-col justify-between items-center rounded-3xl h-full w-3/4">
+            <div className="relative my-3 flex flex-col justify-between items-center rounded-3xl h-1/2 sm:h-full w-3/4">
   <div className="absolute inset-0 bg-[url('../him.webp')] bg-cover bg-center opacity-50 rounded-3xl"></div>
   <div className="relative z-10 text-white flex flex-col justify-between items-center h-screen w-full">
             <p>Himachal-Delhi</p>
@@ -32,7 +32,7 @@ function Packages() {
         <button className='rounded-full px-3  bg-white text-black hover:bg-black my-3 hover:text-white duration-300 '>Iterinerary</button>
         </div>
         </div>
-        <div className="relative my-3 flex flex-col justify-between items-center rounded-3xl h-full w-3/4">
+        <div className="relative my-3 flex flex-col justify-between items-center rounded-3xl h-1/2 sm:h-full w-3/4">
   <div className="absolute inset-0 bg-[url('../kash2.jpg')] bg-cover bg-center opacity-50 rounded-3xl"></div>
   <div className="relative z-10 text-white flex flex-col justify-between items-center h-screen w-full">        <p>Jammu-Kashmir</p>
         <div className="flex-col flex w-full">
@@ -45,7 +45,7 @@ function Packages() {
         <button className='rounded-full px-3  bg-white text-black hover:bg-black my-3 hover:text-white duration-300 '>Iterinerary</button>
         </div>
         </div>
-        <div className="relative my-3 flex flex-col justify-between items-center rounded-3xl h-full w-3/4">
+        <div className="relative my-3 flex flex-col justify-between items-center rounded-3xl h-1/2 sm:h-full w-3/4">
   <div className="absolute inset-0 bg-[url('../mum.jpeg')] bg-cover bg-center opacity-50 rounded-3xl"></div>
   <div className="relative z-10 text-white flex flex-col justify-between items-center h-screen w-full">        <p>Maharashtra</p>
         <div className="flex-col flex w-full">
@@ -59,7 +59,7 @@ function Packages() {
         </div>
         </div>
 
-        <div className="relative my-3 flex flex-col justify-between items-center rounded-3xl h-full w-3/4">
+        <div className="relative my-3 flex flex-col justify-between items-center rounded-3xl h-1/2 sm:h-full w-3/4">
   <div className="absolute inset-0 bg-[url('../alep.webp')] bg-cover bg-center opacity-50 rounded-3xl"></div>
   <div className="relative z-10 text-white flex flex-col justify-between items-center h-screen w-full">
             <p>Kerala-Tamilnadu</p>
@@ -74,7 +74,7 @@ function Packages() {
         <button className='rounded-full px-3  bg-white text-black hover:bg-black my-3 hover:text-white duration-300 '>Iterinerary</button>
         </div>
         </div>
-        <div className="relative my-3 flex flex-col justify-between items-center rounded-3xl h-full w-3/4">
+        <div className="relative my-3 flex flex-col justify-between items-center rounded-3xl h-1/2 sm:h-full w-3/4">
   <div className="absolute inset-0 bg-[url('../mys.jpeg')] bg-cover bg-center opacity-50 rounded-3xl"></div>
   <div className="relative z-10 text-white flex flex-col justify-between items-center h-screen w-full">
     <p>Karnataka</p>
