@@ -34,12 +34,13 @@ function Packages() {
         </div>
         <div className="relative my-3 flex flex-col justify-between items-center rounded-3xl h-full w-3/4">
   <div className="absolute inset-0 bg-[url('../kash2.jpg')] bg-cover bg-center opacity-50 rounded-3xl"></div>
-  <div className="relative z-10 text-white flex flex-col justify-between items-center h-screen w-full">        <p>Kashmir</p>
+  <div className="relative z-10 text-white flex flex-col justify-between items-center h-screen w-full">        <p>Jammu-Kashmir</p>
         <div className="flex-col flex w-full">
             <p className='border-b-2 mx-4 mix-blend-screen '>PAHALGAM</p>
             <p className='border-b-2 mx-4 mix-blend-screen'>GULMARG</p>
             <p className='border-b-2 mx-4 mix-blend-screen'>SONMARG</p>
             <p className='border-b-2 mx-4 mix-blend-screen'>DAL LAKE</p>
+            <p className='border-b-2 mx-4 mix-blend-screen'>JAMMU</p>
         </div>
         <button className='rounded-full px-3  bg-white text-black hover:bg-black my-3 hover:text-white duration-300 '>Iterinerary</button>
         </div>
@@ -59,7 +60,7 @@ function Packages() {
         </div>
 
         <div className="relative my-3 flex flex-col justify-between items-center rounded-3xl h-full w-3/4">
-  <div className="absolute inset-0 bg-[url('../alep.jpeg')] bg-cover bg-center opacity-50 rounded-3xl"></div>
+  <div className="absolute inset-0 bg-[url('../alep.webp')] bg-cover bg-center opacity-50 rounded-3xl"></div>
   <div className="relative z-10 text-white flex flex-col justify-between items-center h-screen w-full">
             <p>Kerala-Tamilnadu</p>
         <div className="flex-col flex w-full">
