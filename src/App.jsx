@@ -8,6 +8,8 @@ import Team from './components/Team';
 import Footer from './components/Footer';
 import Why from './components/Why';
 import Packages from './components/Packages';
+import TestimonialsCarousel from './components/Testimonials';
+import ResponsiveDestinationCarousel from './components/ResponsiveCarousel';
 
 function App() {
   useEffect(() => {
@@ -34,9 +36,11 @@ function App() {
     <div > 
   <TextParallaxContentExample/>
   <About/>
+  <ResponsiveDestinationCarousel/>
   <Bento/>
-  <Packages/>
+  {/* <Packages/> */}
   <Team/>
+  <TestimonialsCarousel/>
   <Why/>
   <Footer/>
     </div>
