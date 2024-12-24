@@ -3,7 +3,7 @@ import { Instagram, Phone, MessageCircle } from 'lucide-react';
 
 const ResponsiveFooter = () => {
   return (
-    <footer className="text-yellow-300 border">
+    <footer className="text-yellow-300 border-t border-yellow-500">
       <div className="max-w-6xl mx-auto px-4 py-8 md:py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
           {/* Logo and Description Section */}
