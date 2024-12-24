@@ -4,7 +4,7 @@ import './Bento.css'
 function Bento() {
   return (
     <div className='bento'>
-        <p className='flex align-items-center justify-center'>OUR DESTINATIONS</p>
+        <p className='flex align-items-center justify-center text-4xl mt-5 font-bold'>OUR DESTINATIONS</p>
 <div className="grid grid-cols-4 sm:grid-cols-8 grid-rows-3 gap-4 h-screen mx-4 my-4">
   <div className=" flex  h-full ">Rajasthan</div>
   <div className=" h-full "><img src="./rj2.jpg" alt="" /></div>

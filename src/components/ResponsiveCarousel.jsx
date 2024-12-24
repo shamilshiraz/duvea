@@ -15,7 +15,7 @@ const destinations = [
     title: "Maharashtra",
     description: "Discover the beauty of mountain landscapes of maharashtra",
     duration: "4D-5N",
-    places: "Zurich, Lucerne, Interlaken",
+    places: "kalsubai, Kavnai, Anjaneri",
     image: "/mum.jpg"
   },
   {
@@ -31,7 +31,7 @@ const destinations = [
     title: "Hampi-Gokarna",
     description: "Enjoy stunning architecture blending with water sports",
     duration: "5D-6N",
-    places: "Hampi-Gokarna-Dandeli",
+    places: "Hampi, Gokarna, Dandeli",
     image: "/hampi.jpg"
   },
   {
