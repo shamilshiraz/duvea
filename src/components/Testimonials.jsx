@@ -82,7 +82,7 @@ const TestimonialsCarousel = () => {
   };
 
   return (
-    <div className="w-[94%] max-w-4xl border m mx-auto px-4 py-12">
+    <div className="w-[94%] max-w-4xl border m mx-auto my-[20vh] px-4 py-12">
       <div 
         className="relative rounded-lg shadow-lg p-8"
         onMouseEnter={() => setIsAutoPlaying(false)}

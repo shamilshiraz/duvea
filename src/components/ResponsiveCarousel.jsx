@@ -94,7 +94,7 @@ const ResponsiveDestinationCarousel = () => {
   };
 
   return (
-    <div className="h-[50vh] sm:h-[100vh] flex flex-col">
+    <div className="h-[50vh] sm:h-[100vh] my-[20vh] flex flex-col">
       {/* Heading Section - Responsive text sizes */}
       <div className="py-8 md:py-3 px-4 text-center">
         <div className="inline-flex items-center justify-center mb-2 md:mb-4">
